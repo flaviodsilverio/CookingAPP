@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[BDManager sharedManager]setContext:[self managedObjectContext]];
+    
     return YES;
 }
 
@@ -35,14 +38,26 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    // Logs 'install' and 'app activate' App Events.
+    [FBAppEvents activateApp];
 }
-
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
+
+#pragma mark - Facebook
+//
+//- (BOOL)application:(UIApplication *)application
+//            openURL:(NSURL *)url
+//  sourceApplication:(NSString *)sourceApplication
+//         annotation:(id)annotation {
+//    // attempt to extract a token from the url
+//    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+//}
 
 #pragma mark - Core Data stack
 

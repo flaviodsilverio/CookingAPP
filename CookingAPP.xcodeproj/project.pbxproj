@@ -15,6 +15,22 @@
 		1BA1970A1AAF706F00AC5A4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA197091AAF706F00AC5A4A /* Images.xcassets */; };
 		1BA1970D1AAF706F00AC5A4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1970B1AAF706F00AC5A4A /* LaunchScreen.xib */; };
 		1BA197191AAF707000AC5A4A /* CookingAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA197181AAF707000AC5A4A /* CookingAPPTests.m */; };
+		1BB2E3221ABE230A00D1721B /* CreateRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB2E3211ABE230A00D1721B /* CreateRecipe.m */; };
+		1BB778511AB218E10017BF2C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB7784B1AB218E10017BF2C /* Bolts.framework */; };
+		1BB778521AB218E10017BF2C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB7784C1AB218E10017BF2C /* FacebookSDK.framework */; };
+		1BB778531AB218E10017BF2C /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB7784D1AB218E10017BF2C /* FBAudienceNetwork.framework */; };
+		1BB778541AB218E10017BF2C /* FBAudienceNetwork.README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7784E1AB218E10017BF2C /* FBAudienceNetwork.README.txt */; };
+		1BB778551AB218E10017BF2C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7784F1AB218E10017BF2C /* LICENSE */; };
+		1BB778561AB218E10017BF2C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BB778501AB218E10017BF2C /* README.txt */; };
+		1BBAB77A1AB615010041869F /* SavedRecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAB7791AB615010041869F /* SavedRecipes.m */; };
+		1BBAB7811AB7865C0041869F /* RecipeSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAB7801AB7865C0041869F /* RecipeSummary.m */; };
+		1BBAB7831ABA2B2F0041869F /* shop-cart-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBAB7821ABA2B2F0041869F /* shop-cart-icon.png */; };
+		1BBAB7871ABA2C150041869F /* BDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAB7861ABA2C150041869F /* BDManager.m */; };
+		1BBAB78A1ABB7E410041869F /* RecipeDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAB7891ABB7E410041869F /* RecipeDetails.m */; };
+		1BBACAC91AC6BFB300978EAD /* ShoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBACAC81AC6BFB300978EAD /* ShoppingList.m */; };
+		1BBC78251AC367C40094AF54 /* AllRecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBC78241AC367C40094AF54 /* AllRecipes.m */; };
+		1BBCF6B31AD98430000371D7 /* customCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCF6B21AD98430000371D7 /* customCollection.m */; };
+		1BBCF6B61AD999BA000371D7 /* testCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCF6B51AD999BA000371D7 /* testCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,31 @@
 		1BA197121AAF707000AC5A4A /* CookingAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA197171AAF707000AC5A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA197181AAF707000AC5A4A /* CookingAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookingAPPTests.m; sourceTree = "<group>"; };
+		1BB2E3201ABE230A00D1721B /* CreateRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRecipe.h; sourceTree = "<group>"; };
+		1BB2E3211ABE230A00D1721B /* CreateRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRecipe.m; sourceTree = "<group>"; };
+		1BB7784B1AB218E10017BF2C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1BB7784C1AB218E10017BF2C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		1BB7784D1AB218E10017BF2C /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		1BB7784E1AB218E10017BF2C /* FBAudienceNetwork.README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FBAudienceNetwork.README.txt; sourceTree = "<group>"; };
+		1BB7784F1AB218E10017BF2C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1BB778501AB218E10017BF2C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		1BBAB7781AB615010041869F /* SavedRecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedRecipes.h; sourceTree = "<group>"; };
+		1BBAB7791AB615010041869F /* SavedRecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedRecipes.m; sourceTree = "<group>"; };
+		1BBAB77F1AB7865C0041869F /* RecipeSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeSummary.h; sourceTree = "<group>"; };
+		1BBAB7801AB7865C0041869F /* RecipeSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeSummary.m; sourceTree = "<group>"; };
+		1BBAB7821ABA2B2F0041869F /* shop-cart-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop-cart-icon.png"; sourceTree = "<group>"; };
+		1BBAB7851ABA2C150041869F /* BDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDManager.h; sourceTree = "<group>"; };
+		1BBAB7861ABA2C150041869F /* BDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDManager.m; sourceTree = "<group>"; };
+		1BBAB7881ABB7E410041869F /* RecipeDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetails.h; sourceTree = "<group>"; };
+		1BBAB7891ABB7E410041869F /* RecipeDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetails.m; sourceTree = "<group>"; };
+		1BBACAC71AC6BFB300978EAD /* ShoppingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingList.h; sourceTree = "<group>"; };
+		1BBACAC81AC6BFB300978EAD /* ShoppingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingList.m; sourceTree = "<group>"; };
+		1BBC78231AC367C40094AF54 /* AllRecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRecipes.h; sourceTree = "<group>"; };
+		1BBC78241AC367C40094AF54 /* AllRecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllRecipes.m; sourceTree = "<group>"; };
+		1BBCF6B11AD98430000371D7 /* customCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCollection.h; sourceTree = "<group>"; };
+		1BBCF6B21AD98430000371D7 /* customCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCollection.m; sourceTree = "<group>"; };
+		1BBCF6B41AD999BA000371D7 /* testCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCustomView.h; sourceTree = "<group>"; };
+		1BBCF6B51AD999BA000371D7 /* testCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB778531AB218E10017BF2C /* FBAudienceNetwork.framework in Frameworks */,
+				1BB778511AB218E10017BF2C /* Bolts.framework in Frameworks */,
+				1BB778521AB218E10017BF2C /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +127,14 @@
 		1BA196F81AAF706F00AC5A4A /* CookingAPP */ = {
 			isa = PBXGroup;
 			children = (
+				1BBCF6AF1AD983EE000371D7 /* Libraries */,
+				1BBAB7841ABA2BFA0041869F /* Singletons */,
+				1BBAB77B1AB615130041869F /* ViewControllers */,
 				1BA196FD1AAF706F00AC5A4A /* AppDelegate.h */,
 				1BA196FE1AAF706F00AC5A4A /* AppDelegate.m */,
-				1BA197031AAF706F00AC5A4A /* ViewController.h */,
-				1BA197041AAF706F00AC5A4A /* ViewController.m */,
 				1BA197061AAF706F00AC5A4A /* Main.storyboard */,
 				1BA197091AAF706F00AC5A4A /* Images.xcassets */,
+				1BBAB7821ABA2B2F0041869F /* shop-cart-icon.png */,
 				1BA1970B1AAF706F00AC5A4A /* LaunchScreen.xib */,
 				1BA197001AAF706F00AC5A4A /* CookingAPP.xcdatamodeld */,
 				1BA196F91AAF706F00AC5A4A /* Supporting Files */,
@@ -99,6 +145,12 @@
 		1BA196F91AAF706F00AC5A4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1BB7784B1AB218E10017BF2C /* Bolts.framework */,
+				1BB7784C1AB218E10017BF2C /* FacebookSDK.framework */,
+				1BB7784D1AB218E10017BF2C /* FBAudienceNetwork.framework */,
+				1BB7784E1AB218E10017BF2C /* FBAudienceNetwork.README.txt */,
+				1BB7784F1AB218E10017BF2C /* LICENSE */,
+				1BB778501AB218E10017BF2C /* README.txt */,
 				1BA196FA1AAF706F00AC5A4A /* Info.plist */,
 				1BA196FB1AAF706F00AC5A4A /* main.m */,
 			);
@@ -120,6 +172,111 @@
 				1BA197171AAF707000AC5A4A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BB2E31F1ABE22ED00D1721B /* CreateRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				1BB2E3201ABE230A00D1721B /* CreateRecipe.h */,
+				1BB2E3211ABE230A00D1721B /* CreateRecipe.m */,
+			);
+			name = CreateRecipe;
+			sourceTree = "<group>";
+		};
+		1BBAB77B1AB615130041869F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BBACAC61AC6BF8E00978EAD /* Shopping List */,
+				1BBC78221AC3679D0094AF54 /* AllRecipes */,
+				1BB2E31F1ABE22ED00D1721B /* CreateRecipe */,
+				1BF7CE501ABDDC84005A1702 /* MainMenu */,
+				1BF7CE4F1ABDDC6F005A1702 /* REcipeDetails */,
+				1BF7CE4E1ABDDC66005A1702 /* RecipeSummary */,
+				1BF7CE4D1ABDDC5F005A1702 /* MyRecipes */,
+				1BBCF6B41AD999BA000371D7 /* testCustomView.h */,
+				1BBCF6B51AD999BA000371D7 /* testCustomView.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BBAB7841ABA2BFA0041869F /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				1BBAB7851ABA2C150041869F /* BDManager.h */,
+				1BBAB7861ABA2C150041869F /* BDManager.m */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		1BBACAC61AC6BF8E00978EAD /* Shopping List */ = {
+			isa = PBXGroup;
+			children = (
+				1BBACAC71AC6BFB300978EAD /* ShoppingList.h */,
+				1BBACAC81AC6BFB300978EAD /* ShoppingList.m */,
+			);
+			name = "Shopping List";
+			sourceTree = "<group>";
+		};
+		1BBC78221AC3679D0094AF54 /* AllRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				1BBC78231AC367C40094AF54 /* AllRecipes.h */,
+				1BBC78241AC367C40094AF54 /* AllRecipes.m */,
+			);
+			name = AllRecipes;
+			sourceTree = "<group>";
+		};
+		1BBCF6AF1AD983EE000371D7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1BBCF6B01AD983F9000371D7 /* UnevenSizeList */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		1BBCF6B01AD983F9000371D7 /* UnevenSizeList */ = {
+			isa = PBXGroup;
+			children = (
+				1BBCF6B11AD98430000371D7 /* customCollection.h */,
+				1BBCF6B21AD98430000371D7 /* customCollection.m */,
+			);
+			name = UnevenSizeList;
+			sourceTree = "<group>";
+		};
+		1BF7CE4D1ABDDC5F005A1702 /* MyRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				1BBAB7781AB615010041869F /* SavedRecipes.h */,
+				1BBAB7791AB615010041869F /* SavedRecipes.m */,
+			);
+			name = MyRecipes;
+			sourceTree = "<group>";
+		};
+		1BF7CE4E1ABDDC66005A1702 /* RecipeSummary */ = {
+			isa = PBXGroup;
+			children = (
+				1BBAB77F1AB7865C0041869F /* RecipeSummary.h */,
+				1BBAB7801AB7865C0041869F /* RecipeSummary.m */,
+			);
+			name = RecipeSummary;
+			sourceTree = "<group>";
+		};
+		1BF7CE4F1ABDDC6F005A1702 /* REcipeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1BBAB7881ABB7E410041869F /* RecipeDetails.h */,
+				1BBAB7891ABB7E410041869F /* RecipeDetails.m */,
+			);
+			name = REcipeDetails;
+			sourceTree = "<group>";
+		};
+		1BF7CE501ABDDC84005A1702 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1BA197031AAF706F00AC5A4A /* ViewController.h */,
+				1BA197041AAF706F00AC5A4A /* ViewController.m */,
+			);
+			name = MainMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +342,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 1BA196ED1AAF706F00AC5A4A;
 			productRefGroup = 1BA196F71AAF706F00AC5A4A /* Products */;
@@ -204,7 +362,11 @@
 			files = (
 				1BA197081AAF706F00AC5A4A /* Main.storyboard in Resources */,
 				1BA1970D1AAF706F00AC5A4A /* LaunchScreen.xib in Resources */,
+				1BB778541AB218E10017BF2C /* FBAudienceNetwork.README.txt in Resources */,
 				1BA1970A1AAF706F00AC5A4A /* Images.xcassets in Resources */,
+				1BB778561AB218E10017BF2C /* README.txt in Resources */,
+				1BB778551AB218E10017BF2C /* LICENSE in Resources */,
+				1BBAB7831ABA2B2F0041869F /* shop-cart-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +384,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BBCF6B31AD98430000371D7 /* customCollection.m in Sources */,
+				1BBAB78A1ABB7E410041869F /* RecipeDetails.m in Sources */,
+				1BBC78251AC367C40094AF54 /* AllRecipes.m in Sources */,
 				1BA197021AAF706F00AC5A4A /* CookingAPP.xcdatamodeld in Sources */,
 				1BA196FF1AAF706F00AC5A4A /* AppDelegate.m in Sources */,
+				1BBACAC91AC6BFB300978EAD /* ShoppingList.m in Sources */,
+				1BBAB7811AB7865C0041869F /* RecipeSummary.m in Sources */,
+				1BB2E3221ABE230A00D1721B /* CreateRecipe.m in Sources */,
 				1BA197051AAF706F00AC5A4A /* ViewController.m in Sources */,
 				1BA196FC1AAF706F00AC5A4A /* main.m in Sources */,
+				1BBCF6B61AD999BA000371D7 /* testCustomView.m in Sources */,
+				1BBAB77A1AB615010041869F /* SavedRecipes.m in Sources */,
+				1BBAB7871ABA2C150041869F /* BDManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +520,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CookingAPP/FacebookSDK",
+					"$(PROJECT_DIR)/CookingAPP",
+				);
 				INFOPLIST_FILE = CookingAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +535,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CookingAPP/FacebookSDK",
+					"$(PROJECT_DIR)/CookingAPP",
+				);
 				INFOPLIST_FILE = CookingAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +599,7 @@
 				1BA1971E1AAF707000AC5A4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BA1971F1AAF707000AC5A4A /* Build configuration list for PBXNativeTarget "CookingAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +608,7 @@
 				1BA197211AAF707000AC5A4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
