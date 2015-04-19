@@ -24,6 +24,7 @@
                @"name" : @"batatas",
                @"quantity": [NSNumber numberWithInt:10]
                },
+    
              @{
                @"name" : @"cenouras",
                @"quantity": [NSNumber numberWithInt:45]
