@@ -45,13 +45,14 @@
     for (int i=0; i<numberOfItemsInRow; i++) {
         itemsYPosition[i]=spaceBetweenItems;
     }
-    
+
     for (int i=0; i<totalNumberOfItems; i++) {
         
-        float low_bound = 100;
-        float high_bound = 400;
-        float rndYValue = (((float)arc4random()/0x100000000)*(high_bound-low_bound)+low_bound);
-        
+        //float low_bound = 100;
+        //float high_bound = 400;
+        //float rndYValue = (((float)arc4random()/0x100000000)*(high_bound-low_bound)+low_bound);
+        float rndYValue = 500;
+
         if(currentItemColumn == numberOfItemsInRow){
             currentItemColumn = 0;
             currentItemLine++;
@@ -60,17 +61,21 @@
                 itemsYPosition[j]+=rndYValue;
             }
         }
+        UILabel *text = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+        [text setText:[NSString stringWithFormat:@"%d",i]];
+        [text setTextColor:[UIColor redColor]];
         
         UIView *view = [[UIView alloc]initWithFrame:CGRectMake(spaceBetweenItems + spaceBetweenItems*currentItemColumn + itemWidth*currentItemColumn + spaceBetweenItems * (itemsYPosition[i]/rndYValue), itemsYPosition[currentItemColumn] + currentItemLine*spaceBetweenItems , itemWidth, rndYValue)];
-        [view setBackgroundColor:[UIColor yellowColor]];
+        [view setTag:i];
+        [view addSubview:text];
+        [view setBackgroundColor:[UIColor whiteColor]];
         
-        NSLog(@"XPos: %d   XSize: %f",currentItemColumn*5 + 50*currentItemColumn,itemWidth);
-        
+        //NSLog(@"XPos: %d   XSize: %f",currentItemColumn*5 + 50*currentItemColumn,itemWidth);
+        NSLog(@"x: %d Y: %f XSize: %f YSize: %f",currentItemColumn*5 + 50*currentItemColumn,itemsYPosition[currentItemColumn] + currentItemLine*spaceBetweenItems,itemWidth ,rndYValue);
+
         [self addSubview:view];
         
         currentItemColumn++;
-        
-        
     }
     
     [self setContentSize:CGSizeMake(self.frame.size.width, (totalNumberOfItems/numberOfItemsInRow)*(300 + spaceBetweenItems))];
